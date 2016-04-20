@@ -4,7 +4,7 @@
 Description: a repo to help with Fuel + Openstack, currently leveraging Ansible with dynamic inventory.
 
 #### Clone this repo to /opt/
-git clone "repo_url"
+git clone --recursive "repo_url"
 
 #### Install Ansible in Fuel Node
 Run the bin/ansible-setup.sh
