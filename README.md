@@ -25,6 +25,11 @@ cd /opt/fuel-ops
 ### Ansible Docs
 http://docs.ansible.com/
 
+Take a look at: http://docs.ansible.com/ansible/intro_adhoc.html
+It allows us to do things like:
+```
+[root@fuel fuel-ops]# ansible compute -m service -a "name=nova-compute state=restarted"
+```
 #### Dynamic inventory from:
 https://github.com/martineg/ansible-fuel-inventory  
 Thanks to @martineg
